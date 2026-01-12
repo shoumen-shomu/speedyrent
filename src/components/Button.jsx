@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({className,btnText}) => {
   return (
-    <div className={`py-5 px-15 ${className}`}>{btnText}</div>
+    <div className={`py-5 px-15 bg-teal-400 ${className}`}>{btnText}</div>
   )
 }
 

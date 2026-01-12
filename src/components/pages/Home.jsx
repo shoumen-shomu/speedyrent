@@ -1,11 +1,12 @@
-import React from 'react'
+import Banner from "../layouts/Banner";
+
 
 const Home = () => {
   return (
     <div>
-        React Setup
+     <Banner/>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
