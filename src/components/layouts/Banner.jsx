@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../Button";
 import Container from "../Container";
-import Flex from "../Flex";
 import Images from "../Images";
 import bannerimage from "/src/assets/bannerimage.png";
 
@@ -11,8 +10,7 @@ const Banner = () => {
       <div className="bg-[url('/src/assets/bannerbg.png')] pt-[211px] bg-cover bg-center bg-no-repeat">
         <div className="flex pt-[97px]">
           <Container>
-            <Flex>
-              <div className=" w-[668px]">
+              <div className=" w-[668px] ml-32">
                 <h1 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%]">
                   Experience Ultimate Comfort and Convenience with Speedy
                 </h1>
@@ -41,7 +39,6 @@ const Banner = () => {
                   </Link>
                 </div>
               </div>
-            </Flex>
           </Container>
           <Images imgSrc={bannerimage} />
         </div>
