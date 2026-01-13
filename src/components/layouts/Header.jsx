@@ -12,10 +12,10 @@ const Header = () => {
       <div className="fixed w-full top-0 left-0 py-12.5">
         <Container>
           <Flex className={"justify-between"}>
-            <div className="logo w-[25%]">
+            <div className="logo w-[20%]">
               <Images imgSrc={logo} />
             </div>
-            <div className="w-[63%]">
+            <div className="w-[65%]">
               <ul className="flex items-center gap-x-20">
                 <Link to={"/about"}>
                   <li className="font-pop font-semibold text-[24px] text-[#181818] leading-[150%] hover:text-[#EA002D] duration-300">
