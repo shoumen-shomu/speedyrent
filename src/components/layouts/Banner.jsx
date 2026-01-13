@@ -7,8 +7,8 @@ import bannerimage from "/src/assets/bannerimage.png";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="bg-[url('/src/assets/bannerbg.png')] pt-52.75 bg-cover bg-center bg-no-repeat">
+    <div className="relative">
+      <div className="bg-[url('/src/assets/bannerbg.png')] pt-52.75 bg-cover bg-center bg-no-repeat relative">
         <div className="flex justify-end pt-10">
           <div className=" max-w-167 absolute left-40">
             <Container>
@@ -42,7 +42,7 @@ const Banner = () => {
             </Container>
           </div>
           <div className="">
-            <Images className={"w-full "} imgSrc={bannerimage} />
+            <Images imgSrc={bannerimage} />
           </div>
         </div>
       </div>
