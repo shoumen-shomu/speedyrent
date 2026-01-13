@@ -8,7 +8,7 @@ const SearchBar = () => {
   return (
     <div className="">
       <Container>
-        <div className="py-12.5 px-7.5 flex gap-x-9 shadow-[0px_8px_35px_0px_rgba(24,24,24,0.08)] bg-[#FDFDFD] absolute -bottom-25">
+        <div className="py-12.5 px-7.5 flex gap-x-9 shadow-[0px_8px_35px_0px_rgba(24,24,24,0.08)] bg-[#FDFDFD] absolute bottom-0">
           <Link>
             {" "}
             <div className="flex gap-x-5 items-center border border-[#CEC8C8] bg-[#F5F5F5] py-[30px] pl-[20px]  pr-25 group hover:bg-[#EA002D] hover:border-[#EA002D] duration-500">
