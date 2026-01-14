@@ -1,5 +1,6 @@
 import About from "../layouts/About";
 import Banner from "../layouts/Banner";
+import Faq from "../layouts/Faq";
 import SearchBar from "../layouts/SearchBar";
 
 
@@ -9,6 +10,7 @@ const Home = () => {
      <Banner/>
      <SearchBar/>
      <About/>
+     <Faq/>
     </div>
   );
 };
