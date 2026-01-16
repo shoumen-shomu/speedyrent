@@ -1,0 +1,12 @@
+button[type="button"] {
+  font-size: 36px;
+  width: 100%;
+}
+button[type="button"]:hover {
+  text-decoration: none;
+}
+svg[xmlns="http://www.w3.org/2000/svg"] {
+  height: 54px;
+  width: 54px;
+  color: #181818;
+}
