@@ -7,9 +7,9 @@ import { BsPlayCircle } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="my-75">
+    <div className="my-75 z-0">
       <Container className={""}>
-        <h6 className="font-pop font-semibold text-[24px] text-[#454545] leading-[150%] pb-[20px]">
+        <h6 className="font-pop font-semibold text-[24px] text-[#454545] leading-[150%] pb-5">
           About Speedy
         </h6>
         <Flex className={"gap-x-25 mb-12.5"}>
