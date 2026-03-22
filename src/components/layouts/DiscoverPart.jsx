@@ -5,14 +5,14 @@ import discover from "/src/assets/discoverpert.png";
 
 const DiscoverPart = () => {
   return (
-    <div className="my-[350px]">
+    <div className="my-87.5">
       <Container>
-        <div className="text-center mb-[100px]">
+        <div className="text-center mb-25">
           <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-[1141px] mx-auto mb-[30px]">
             Discover Our Exclusive Features and Add-Ons for a Perfect Rental
             Experience
           </h2>
-          <p className="w-[820px] mx-auto font-pop font-normal text-base text-[#454545] leading-[180%]">
+          <p className="w-205 mx-auto font-pop font-normal text-base text-[#454545] leading-[180%]">
             Lorem ipsum dolor sit amet consectetur. Purus viverra viverra amet
             molestie imperdiet quis enim varius. Vitae rutrum praesent a et
             cursus sagittis egestas blandit eget.{" "}
