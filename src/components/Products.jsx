@@ -2,6 +2,7 @@ import React from "react";
 import Images from "./Images";
 import productImg from "/src/assets/productImg.png";
 import Container from "./Container";
+import { FaStar } from "react-icons/fa";
 
 const Products = () => {
   return (
@@ -20,6 +21,13 @@ const Products = () => {
                   /day
                 </span>
               </p>
+              <div className="flex">
+                <FaStar className="w-10 h-10 text-red" />
+                <FaStar className="w-10 h-10 text-red" />
+                <FaStar className="w-10 h-10 text-red" />
+                <FaStar className="w-10 h-10 text-red" />
+                <FaStar className="w-10 h-10 text-red" />
+              </div>
             </div>
           </div>
         </Container>
