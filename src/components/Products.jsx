@@ -6,9 +6,22 @@ import Container from "./Container";
 const Products = () => {
   return (
     <>
-      <div className="">
+      <div className="mt-25">
         <Container>
-          <Images className={"mb-10"} imgSrc={productImg} />
+          <Images imgSrc={productImg} />
+          <div className="mt-10">
+            <div className="flex">
+              <p className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%]">
+                <span className="font-pop font-semibold text-[24px] text-[#EA002D] leading-[150%]">
+                  $
+                </span>
+                50.23{" "}
+                <span className="font-pop font-semibold text-[24px] text-[#454545] leading-[150%]">
+                  /day
+                </span>
+              </p>
+            </div>
+          </div>
         </Container>
       </div>
     </>
