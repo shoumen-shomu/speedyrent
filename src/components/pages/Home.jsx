@@ -4,6 +4,7 @@ import ChoosePart from "../layouts/ChoosePart";
 import DiscoverPart from "../layouts/DiscoverPart";
 import Faq from "../layouts/Faq";
 import SearchBar from "../layouts/SearchBar";
+import Products from "../Products";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
      <Faq/>
      <DiscoverPart/>
      <ChoosePart/>
+     <Products/>
     </div>
   );
 };
