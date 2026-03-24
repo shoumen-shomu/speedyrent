@@ -2,7 +2,7 @@ import React from "react";
 import Images from "./Images";
 import productImg from "/src/assets/productImg.png";
 import Container from "./Container";
-import { FaStar } from "react-icons/fa";
+import { IoIosStar } from "react-icons/io";
 
 const Products = () => {
   return (
@@ -11,7 +11,7 @@ const Products = () => {
         <Container>
           <Images imgSrc={productImg} />
           <div className="mt-10">
-            <div className="flex">
+            <div className="flex items-center gap-29">
               <p className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%]">
                 <span className="font-pop font-semibold text-[24px] text-[#EA002D] leading-[150%]">
                   $
@@ -21,12 +21,12 @@ const Products = () => {
                   /day
                 </span>
               </p>
-              <div className="flex">
-                <FaStar className="w-10 h-10 text-red" />
-                <FaStar className="w-10 h-10 text-red" />
-                <FaStar className="w-10 h-10 text-red" />
-                <FaStar className="w-10 h-10 text-red" />
-                <FaStar className="w-10 h-10 text-red" />
+              <div className="flex ">
+                <IoIosStar className=" !text-red-500 text-[10px]" />
+                <IoIosStar className=" !text-red-500 text-[10px]" />
+                <IoIosStar className=" !text-red-500 text-[10px]" />
+                <IoIosStar className=" !text-red-500 text-[10px]" />
+                <IoIosStar className=" !text-red-500 text-[10px]" />
               </div>
             </div>
           </div>
