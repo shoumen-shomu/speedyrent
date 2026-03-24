@@ -38,7 +38,9 @@ const ChoosePart = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-10">
+        <div className="flex flex-wrap gap-10">
+          <Products/>
+          <Products/>
           <Products/>
           <Products/>
           <Products/>
