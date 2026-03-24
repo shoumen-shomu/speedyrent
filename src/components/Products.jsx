@@ -11,7 +11,7 @@ const Products = () => {
         <Container>
           <Images imgSrc={productImg} />
           <div className="mt-10">
-            <div className="flex items-center gap-29">
+            <div className="flex items-center">
               <p className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%]">
                 <span className="font-pop font-semibold text-[24px] text-[#EA002D] leading-[150%]">
                   $
@@ -21,7 +21,7 @@ const Products = () => {
                   /day
                 </span>
               </p>
-              <div className="flex ">
+              <div className="flex">
                 <IoIosStar className=" !text-red-500 text-[10px]" />
                 <IoIosStar className=" !text-red-500 text-[10px]" />
                 <IoIosStar className=" !text-red-500 text-[10px]" />

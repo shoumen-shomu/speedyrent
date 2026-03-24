@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container";
+import Products from "../Products";
 
 const ChoosePart = () => {
   return (
@@ -36,6 +37,12 @@ const ChoosePart = () => {
               Exclusive Car
             </p>
           </div>
+        </div>
+        <div className="flex gap-10">
+          <Products/>
+          <Products/>
+          <Products/>
+          <Products/>
         </div>
       </Container>    
     </div>

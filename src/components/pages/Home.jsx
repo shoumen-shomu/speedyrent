@@ -16,7 +16,7 @@ const Home = () => {
      <Faq/>
      <DiscoverPart/>
      <ChoosePart/>
-     <Products/>
+  
     </div>
   );
 };
