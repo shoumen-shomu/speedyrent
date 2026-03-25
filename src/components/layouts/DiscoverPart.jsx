@@ -5,6 +5,9 @@ import discover from "/src/assets/discoverpert.png";
 
 const DiscoverPart = () => {
   return (
+  <>
+  {/* Discover Part Start */}
+  
     <div className="my-87.5">
       <Container>
         <div className="text-center mb-25">
@@ -23,6 +26,8 @@ const DiscoverPart = () => {
         </div>
       </Container>
     </div>
+    {/* Discover Part End */}
+  </>
   );
 };
 
