@@ -7,6 +7,7 @@ import bannerimage from "/src/assets/bannerimage.png";
 
 const Banner = () => {
   return (
+    Banner Part Start
     <div className="relative">
       <div className="bg-[url('/src/assets/bannerbg.png')] pt-52.75 bg-cover bg-center bg-no-repeat relative">
         <div className="flex justify-end pt-10">

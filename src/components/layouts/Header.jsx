@@ -8,7 +8,10 @@ import Button from "../Button";
 
 const Header = () => {
   return (
+    
     <div>
+      {/* Header Part Start */}
+      
       <div className="fixed w-full top-0 left-0 py-12.5 z-100">
         <Container>
           <Flex className={"justify-between"}>
@@ -57,6 +60,7 @@ const Header = () => {
           </Flex>
         </Container>
       </div>
+      {/* Header Part End */}
     </div>
   );
 };
