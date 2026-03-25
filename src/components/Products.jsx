@@ -7,6 +7,8 @@ import { IoIosStar } from "react-icons/io";
 const Products = () => {
   return (
     <>
+      {/* Products Part Start */}
+
       <div className="mt-25">
         <Container>
           <Images imgSrc={productImg} />
@@ -32,6 +34,7 @@ const Products = () => {
           </div>
         </Container>
       </div>
+      {/* Products Part End */}
     </>
   );
 };
