@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 
 const SearchBar = () => {
   return (
+   
     <div className="">
+      {/* SearchBar Part Start */}
       <Container>
         <div className="py-12.5 px-7.5 flex gap-x-9 shadow-[0px_8px_35px_0px_rgba(24,24,24,0.08)] bg-[#FDFDFD] absolute bottom-0">
           <Link>
@@ -47,6 +49,7 @@ const SearchBar = () => {
           </Link>
         </div>
       </Container>
+      {/* SearchBar Part End */}
     </div>
   );
 };
