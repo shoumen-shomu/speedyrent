@@ -25,7 +25,7 @@ const Review = () => {
                   and easy, and the staff were friendly and helpful when I
                   arrived to pick up my rental car”F
                 </p>
-                <h3>James Andrew</h3>
+                <h3 className="font-pop font-semi-bold text-[32px] text-[#181818] leading-[150%]">James Andrew</h3>
                 <p>Customer</p>
               </div>
               {/* Review End */}
