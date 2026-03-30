@@ -4,6 +4,7 @@ import Container from "../Container";
 const Review = () => {
   return (
     <>
+      {/* review part Start */}
       <section className="mt-87.5">
         <Container>
           <div className="flex">
@@ -20,6 +21,7 @@ const Review = () => {
           </div>
         </Container>
       </section>
+      {/* review part End */}
     </>
   );
 };
