@@ -29,7 +29,7 @@ const Review = () => {
                 <p className="font-pop font-semibold text-base text-[#454545] leading-[150%]">Customer</p>
               </div>
               {/* Review End */}
-              {/* Review End */}
+              
             </div>
           </div>
         </Container>
