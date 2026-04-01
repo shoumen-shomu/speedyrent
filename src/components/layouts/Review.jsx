@@ -8,7 +8,7 @@ const Review = () => {
       <section className="mt-87.5">
         <Container>
           <div className="flex">
-            <div className="">
+            <div className="gap-[140px]">
               <h1 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-[660px] mb-[30px]">
                 See Why Speedy is the Top Choice for Car Rentals
               </h1>
@@ -25,9 +25,10 @@ const Review = () => {
                   and easy, and the staff were friendly and helpful when I
                   arrived to pick up my rental car”F
                 </p>
-                <h3 className="font-pop font-semi-bold text-[32px] text-[#181818] leading-[150%]">James Andrew</h3>
-                <p>Customer</p>
+                <h3 className="font-pop font-semibold text-[32px] text-[#181818] leading-[150%]">James Andrew</h3>
+                <p className="font-pop font-semibold text-base text-[#454545] leading-[150%]">Customer</p>
               </div>
+              {/* Review End */}
               {/* Review End */}
             </div>
           </div>
