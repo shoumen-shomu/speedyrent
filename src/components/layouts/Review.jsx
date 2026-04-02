@@ -26,7 +26,7 @@ const Review = () => {
                   "I recently rented a car from Speedy and I was blown away by
                   the level of service I received. The booking process was quick
                   and easy, and the staff were friendly and helpful when I
-                  arrived to pick up my rental car”F
+                  arrived to pick up my rental car”
                 </p>
                 <h3 className="font-pop font-semibold text-[32px] text-[#181818] leading-[150%]">
                   James Andrew
