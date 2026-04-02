@@ -7,19 +7,19 @@ import Button from "../Button";
 const Blogs = () => {
   return (
     <>
-      <section>
+      <section className="mb-87.5">
         <Container>
-          <div className="">
-            <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-273.25 mx-auto text-center pb-[30px]">
+          <div className="text-center">
+            <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-273.25 mx-auto pb-7.5">
               Stay Up-to-Date with the Latest Car Rental Trends and Tips
             </h2>
-            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-273.25 mx-auto text-center">
+            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-273.25 mx-auto">
               Lorem ipsum dolor sit amet consectetur. Purus viverra viverra amet
               molestie imperdiet quis enim varius. Vitae rutrum praesent a et
               cursus sagittis egestas blandit eget.{" "}
             </p>
           </div>
-          <div className="mt-25 flex gap-7.5">
+          <div className="mt-25 grid grid-cols-3 gap-7.5">
             <div className="w-lg ">
               <Images imgSrc={blogimg} imgAlt={blogimg} />
               <div className="pt-7.5">
