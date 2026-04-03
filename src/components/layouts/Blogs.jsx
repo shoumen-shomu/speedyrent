@@ -7,6 +7,7 @@ import Button from "../Button";
 const Blogs = () => {
   return (
     <>
+    
       <section className="mb-87.5">
         <Container>
           <div className="text-center">

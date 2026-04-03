@@ -17,10 +17,10 @@ const About = () => {
         </h6>
         <Flex className={"gap-x-25 mb-12.5"}>
           <div className="">
-            <h2 className="pb-42 font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-[614px]">
+            <h2 className="pb-42 font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-153.5">
               Discover the Difference with Our Car Rentals
             </h2>
-            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-[556px]">
+            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-139">
               Lorem ipsum dolor sit amet consectetur. Malesuada turpis sem
               pellentesque suscipit sit vel. Id sem elementum adipiscing sed
               pulvinar quisque. Eu ut sagittis facilisi porttitor posuere eget

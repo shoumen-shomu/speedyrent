@@ -10,7 +10,7 @@ const ChoosePart = () => {
           <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-265.25 mx-auto mb-[30px]">
             Choose Your Dream Car from Our Wide Range of Vehicles
           </h2>
-          <p className="w-205 mx-auto font-pop font-normal text-base text-[#454545] leading-[180%] w-265.25">
+          <p className="w-205 mx-auto font-pop font-normal text-base text-[#454545] leading-[180%]">
             Lorem ipsum dolor sit amet consectetur. Purus viverra viverra amet
             molestie imperdiet quis enim varius. Vitae rutrum praesent a et
             cursus sagittis egestas blandit eget.
