@@ -10,117 +10,126 @@ import {
 
 const Faq = () => {
   return (
-    <div className="flex gap-x-15 mb-75 ">
-      <div className="relative">
-        <Images className="absolute z-0 -top-20 left-0" imgSrc={faqred} />
-        <Images className="relative z-10 -left-50 w-full" imgSrc={faqpurple} />
+
+    <>
+    {/* FAQ Part Start */}
+
+      <div className="flex gap-x-15 mb-75 ">
+        <div className="relative">
+          <Images className="absolute z-0 -top-20 left-0" imgSrc={faqred} />
+          <Images
+            className="relative z-10 -left-50 w-full"
+            imgSrc={faqpurple}
+          />
+        </div>
+        <div className="w-3xl">
+          <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-153.5 items-start pb-12.5">
+            Explore Our Wide Range of Car Rental Services
+          </h2>
+          <div className="mb-7.5">
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1" className={""}>
+                <div className="flex gap-7.5 items-center">
+                  <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
+                    <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
+                      1
+                    </h4>
+                  </div>
+                  <div className="w-full">
+                    <AccordionTrigger>Car Rental</AccordionTrigger>
+                  </div>
+                </div>
+                <AccordionContent
+                  className={
+                    "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
+                  }
+                >
+                  Make sure to provide clear and detailed information about the
+                  types of vehicles you offer, rental rates, rental periods, and
+                  any additional fees or requirements.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+          <div className="mb-7.5">
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1" className={""}>
+                <div className="flex gap-[30px] items-center">
+                  <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
+                    <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
+                      2
+                    </h4>
+                  </div>
+                  <div className="w-full">
+                    <AccordionTrigger>Airport Transfers</AccordionTrigger>
+                  </div>
+                </div>
+                <AccordionContent
+                  className={
+                    "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
+                  }
+                >
+                  Make sure to provide clear and detailed information about the
+                  types of vehicles you offer, rental rates, rental periods, and
+                  any additional fees or requirements.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+          <div className="mb-[30px]">
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1" className={""}>
+                <div className="flex gap-[30px] items-center">
+                  <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
+                    <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
+                      3
+                    </h4>
+                  </div>
+                  <div className="w-full">
+                    <AccordionTrigger>
+                      Car Maintenance and Repair
+                    </AccordionTrigger>
+                  </div>
+                </div>
+                <AccordionContent
+                  className={
+                    "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
+                  }
+                >
+                  To keep your rental cars in top condition, you'll need to
+                  provide regular maintenance and repair services.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+          <div className="">
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1" className={""}>
+                <div className="flex gap-[30px] items-center">
+                  <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
+                    <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
+                      4
+                    </h4>
+                  </div>
+                  <div className="w-full">
+                    <AccordionTrigger>Roadside Assistance</AccordionTrigger>
+                  </div>
+                </div>
+                <AccordionContent
+                  className={
+                    "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
+                  }
+                >
+                  To keep your rental cars in top condition, you'll need to
+                  provide regular maintenance and repair services.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+        </div>
       </div>
-      <div className="w-3xl">
-        <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-153.5 items-start pb-12.5">
-          Explore Our Wide Range of Car Rental Services
-        </h2>
-        <div className="mb-7.5">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1" className={""}>
-              <div className="flex gap-7.5 items-center">
-                <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
-                  <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
-                    1
-                  </h4>
-                </div>
-                <div className="w-full">
-                  <AccordionTrigger>Car Rental</AccordionTrigger>
-                </div>
-              </div>
-              <AccordionContent
-                className={
-                  "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
-                }
-              >
-                Make sure to provide clear and detailed information about the
-                types of vehicles you offer, rental rates, rental periods, and
-                any additional fees or requirements.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
-        <div className="mb-7.5">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1" className={""}>
-              <div className="flex gap-[30px] items-center">
-                <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
-                  <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
-                    2
-                  </h4>
-                </div>
-                <div className="w-full">
-                  <AccordionTrigger>Airport Transfers</AccordionTrigger>
-                </div>
-              </div>
-              <AccordionContent
-                className={
-                  "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
-                }
-              >
-                Make sure to provide clear and detailed information about the
-                types of vehicles you offer, rental rates, rental periods, and
-                any additional fees or requirements.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
-        <div className="mb-[30px]">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1" className={""}>
-              <div className="flex gap-[30px] items-center">
-                <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
-                  <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
-                    3
-                  </h4>
-                </div>
-                <div className="w-full">
-                  <AccordionTrigger>
-                    Car Maintenance and Repair
-                  </AccordionTrigger>
-                </div>
-              </div>
-              <AccordionContent
-                className={
-                  "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
-                }
-              >
-                To keep your rental cars in top condition, you'll need to
-                provide regular maintenance and repair services.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
-        <div className="">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1" className={""}>
-              <div className="flex gap-[30px] items-center">
-                <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
-                  <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
-                    4
-                  </h4>
-                </div>
-                <div className="w-full">
-                  <AccordionTrigger>Roadside Assistance</AccordionTrigger>
-                </div>
-              </div>
-              <AccordionContent
-                className={
-                  "w-full font-pop font-normal text-base text-[#454545] leading-[180%] pl-20"
-                }
-              >
-                To keep your rental cars in top condition, you'll need to
-                provide regular maintenance and repair services.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
-      </div>
-    </div>
+          {/* FAQ Part End */}
+    </>
   );
 };
 export default Faq;
