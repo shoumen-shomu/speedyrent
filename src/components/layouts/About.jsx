@@ -7,7 +7,10 @@ import { BsPlayCircle } from "react-icons/bs";
 
 const About = () => {
   return (
+    
     <div className="my-75 z-0">
+      {/* About Part Start */}
+      
       <Container className={""}>
         <h6 className="font-pop font-semibold text-[24px] text-[#454545] leading-[150%] pb-5">
           About Speedy
@@ -26,7 +29,7 @@ const About = () => {
             </p>
           </div>
           <div className="items-center">
-            <p className="pb-20 font-pop font-normal text-base text-[#454545] leading-[180%] w-[882px]">
+            <p className="pb-20 font-pop font-normal text-base text-[#454545] leading-[180%] w-220.5">
               Lorem ipsum dolor sit amet consectetur. Malesuada turpis sem
               pellentesque suscipit sit vel. Id sem elementum adipiscing sed
               pulvinar quisque. Eu ut sagittis facilisi porttitor posuere eget
@@ -41,7 +44,7 @@ const About = () => {
               dictumst vitae diam. Volutpat sed arcu urna sem eu ornare et
               facilisis sed.
             </p>
-            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-[882px]">
+            <p className="font-pop font-normal text-base text-[#454545] leading-[180%] w-220.5">
               Egestas molestie dictum fringilla nulla in et. Rhoncus donec nunc
               sed congue egestas tellus. Consequat ultrices tincidunt tincidunt
               convallis libero gravida. Etiam magnis faucibus tincidunt risus
@@ -58,7 +61,9 @@ const About = () => {
             <BsPlayCircle  className="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] text-[134px] text-white" />
         </div>
       </Container>
+      {/* About Part End */}
     </div>
+    
   );
 };
 
