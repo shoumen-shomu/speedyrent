@@ -105,7 +105,7 @@ const Faq = () => {
           <div className="">
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1" className={""}>
-                <div className="flex gap-[30px] items-center">
+                <div className="flex gap-7.5 items-center">
                   <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
                     <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
                       4
