@@ -7,6 +7,7 @@ import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
+    {/* Footer part Start */} 
       <footer className="bg-[#181818] pt-37.5 pb-20">
         <Container>
           <div className="flex justify-between mb-33.5">
@@ -76,8 +77,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-         <div className="bg-[#838383] w-myContainer p-[.5px] mb-[30px]"></div>
-         <div className="flex justify-between ">
+         <div className="bg-[#838383] w-myContainer p-[.5px] mb-7.5"></div>
+         <div className="flex justify-between">
          <div className="flex gap-10">
           <p className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">Privacy Policy</p>
           <p className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">Terms of Service</p>
@@ -87,8 +88,8 @@ const Footer = () => {
          </div>
          </div>
         </Container>
-       
       </footer>
+      {/* Footer part End */}
     </>
   );
 };
