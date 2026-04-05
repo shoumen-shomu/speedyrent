@@ -2,7 +2,7 @@ import React from "react";
 import Images from "./Images";
 import productImg from "/src/assets/productImg.png";
 import Container from "./Container";
-import { IoIosStar } from "react-icons/io";
+import { IoStar } from "react-icons/io5";
 
 const Products = () => {
   return (
@@ -24,11 +24,66 @@ const Products = () => {
                 </span>
               </p>
               <div className="flex">
-                <IoIosStar className=" !text-red-500 text-[10px]" />
-                <IoIosStar className=" !text-red-500 text-[10px]" />
-                <IoIosStar className=" !text-red-500 text-[10px]" />
-                <IoIosStar className=" !text-red-500 text-[10px]" />
-                <IoIosStar className=" !text-red-500 text-[10px]" />
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 35 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.119 0L21.1603 12.4377H34.238L23.6579 20.1246L27.6992 32.5623L17.119 24.8754L6.53888 32.5623L10.5801 20.1246L1.90735e-06 12.4377H13.0778L17.119 0Z"
+                    fill="#F7AD3F"
+                  />
+                </svg>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 35 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.119 0L21.1603 12.4377H34.238L23.6579 20.1246L27.6992 32.5623L17.119 24.8754L6.53888 32.5623L10.5801 20.1246L1.90735e-06 12.4377H13.0778L17.119 0Z"
+                    fill="#F7AD3F"
+                  />
+                </svg>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 35 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.119 0L21.1603 12.4377H34.238L23.6579 20.1246L27.6992 32.5623L17.119 24.8754L6.53888 32.5623L10.5801 20.1246L1.90735e-06 12.4377H13.0778L17.119 0Z"
+                    fill="#F7AD3F"
+                  />
+                </svg>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 35 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.119 0L21.1603 12.4377H34.238L23.6579 20.1246L27.6992 32.5623L17.119 24.8754L6.53888 32.5623L10.5801 20.1246L1.90735e-06 12.4377H13.0778L17.119 0Z"
+                    fill="#F7AD3F"
+                  />
+                </svg>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 35 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.119 0L21.1603 12.4377H34.238L23.6579 20.1246L27.6992 32.5623L17.119 24.8754L6.53888 32.5623L10.5801 20.1246L1.90735e-06 12.4377H13.0778L17.119 0Z"
+                    fill="#F7AD3F"
+                  />
+                </svg>
               </div>
             </div>
           </div>
