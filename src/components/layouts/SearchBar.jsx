@@ -50,6 +50,7 @@ const SearchBar = () => {
         </div>
       </Container>
       {/* SearchBar Part End */}
+      {/* SearchBar Part End */}
     </div>
   );
 };
