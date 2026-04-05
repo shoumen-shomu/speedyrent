@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Container from "../Container";
 
 const Faq = () => {
   return (
@@ -14,12 +15,14 @@ const Faq = () => {
       {/* FAQ Part Start */}
       <section>
         <div className="flex gap-x-15 mb-75 ">
-          <div className="relative">
-            <Images className="absolute z-0 -top-20 left-0" imgSrc={faqred} />
-            <Images
-              className="relative z-10 -left-50 w-full"
-              imgSrc={faqpurple}
-            />
+          <div className="">
+            <div className="relative">
+              <Images className="absolute z-0 -top-20 left-0" imgSrc={faqred} />
+              <Images
+                className="relative z-10 -left-50 w-full"
+                imgSrc={faqpurple}
+              />
+            </div>
           </div>
           <div className="w-3xl">
             <h2 className="font-pop font-semibold text-[48px] text-[#181818] leading-[150%] w-153.5 items-start pb-12.5">
@@ -78,7 +81,7 @@ const Faq = () => {
             <div className="mb-[30px]">
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1" className={""}>
-                  <div className="flex gap-[30px] items-center">
+                  <div className="flex gap-7.5 items-center">
                     <div className="w-13.5 h-13.5 bg-[#EA002D] flex justify-center items-center">
                       <h4 className="font-pop font-semibold text-[24px] text-[#FDFDFD] leading-[150%]">
                         3
